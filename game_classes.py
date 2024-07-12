@@ -7,10 +7,10 @@ class Hero:
 
 class Enemy:
     def __init__(self, name, strength, agility, intelligence):
-         self.name = name
-         self.strength = strength
-         self.agility = agility
-         self.intelligence = intelligence
+        self.name = name
+        self.strength = strength
+        self.agility = agility
+        self.intelligence = intelligence
 
 class Dungeon:
     def __init__(self, name, size, difficulty):
@@ -18,3 +18,4 @@ class Dungeon:
         self.size = size
         self.difficulty = difficulty
         
+    
